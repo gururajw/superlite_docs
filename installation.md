@@ -55,7 +55,7 @@ Compile the code by running make.
 If everything goes well, you should see the following message on your screen
 
 ```
-100%] Linking Fortran executable superlite
+[100%] Linking Fortran executable superlite
 [100%] Built target superlite
 ```
 
