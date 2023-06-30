@@ -43,3 +43,23 @@ If you have Intel Fortran compiler with Math Kernel Library on your system, then
 2. MacOS <br>
 If you are using latest MacOS and encounter an "argument mismatch" error while compiling that is related to MPI routines, then uncomment the fix on line 75 of the CMakeList.txt file in the *src* directory.
 `set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -fallow-argument-mismatch")`
+
+3. LAPACK/BLAS installed, but not found
+If you encounter an error that the LAPACK/BLAS libraries are not found during the installation, you may have to included the absolute path to your LAPACK and BLAS libraries in the CMakeList.txt file in the *src* directory. Comment out the lines 47 through 53 as below.
+
+```
+#find_package (BLAS)
+#find_package (LAPACK )
+#if(LAPACK_FOUND AND BLAS_FOUND)
+#  set(lapckblas_libraries ${BLAS_LIBRARIES} ${LAPACK_LIBRARIES})
+#  target_link_libraries(superlite PRIVATE ${lapackblas_libraries})
+#endif ()
+```
+
+And uncomment lines 55 through 58. At line 55 and 56, update the path in find_library command to the location of libblas.so and liblapack.so files in your Linux machine. (The extension is .dylib instead of .so for MacOS.)
+```
+find_library (BLA_LIB libblas.so PATH /usr/lib/x86_64-linux-gnu/blas/)
+find_library (LAPACK_LIB liblapack.so PATH /usr/lib/x86_64-linux-gnu/lapack/)
+target_link_libraries(superlite PRIVATE ${BLA_LIB})
+target_link_libraries(superlite PRIVATE ${LAPACK_LIB})
+```
