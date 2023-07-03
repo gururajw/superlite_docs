@@ -2,7 +2,7 @@
 
 - **Home**
   - [Copying](/README.md)
-  - [Citing the SuperLite code](/citing.md)
+  - [Citing SuperLite](/citing.md)
   - [Methods](/methods.md)
 - **Getting Started**
   - [Installation Instructions](/installation.md)
