@@ -5,7 +5,7 @@ To cite the SuperLite code with Zenodo created DOI, you can create a BibTeX entr
 @misc{gururaj_wagle_2023_8111119 ,<br>
     author       = {Gururaj Wagle},<br>
     title        = {{SuperLite: IMC-DDMC Radiation Transport Code for Interacting Transients}},<br>
-    month        = jun,<br>
+    month        = jul,<br>
     year         = 2023,<br>
     doi          = {10.5281/zenodo.8111119 },<br>
     version      = {r1.0.0},<br>
