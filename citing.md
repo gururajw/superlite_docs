@@ -1,6 +1,10 @@
-In addition to citing the SuperLite paper, please also cite the latest release of SuperLite code. 
+In addition to citing the SuperLite paper (Wagle et al. 2023), please also cite the latest release of the SuperLite code. 
 
-To cite the SuperLite code with Zenodo created DOI, you can create a BibTeX entry similar to following example:
+For example:
+SuperLite (Wagle et al. 2023, Wagle 2023)
+
+
+To cite the SuperLite code with DOI created by Zenodo, you can create a BibTeX entry similar to following example:
 ```
 @misc{gururaj_wagle_2023_8111119 ,
     author       = {Gururaj Wagle},
