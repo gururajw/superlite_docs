@@ -16,7 +16,7 @@ Copyright (c) 2023 Gururaj Wagle.  All rights reserved.
     Please find a copy of the GNU General Public License in the COPYING
     file provided along with this program, or see <http://www.gnu.org/licenses/>.
 
-If you use SuperLite, I ask you to appropriately acknowledge SuperLite and cite the [SuperLite paper](https://arxiv.org/abs/2305.17184) in which the methods are described.
+If you use SuperLite, I ask you to appropriately acknowledge SuperLite and cite the [SuperLite paper](https://iopscience.iop.org/article/10.3847/1538-4357/acda23) in which the methods are described, and the corresponding Zenodo repository (10.5281/zenodo.8102236).
 
 Thank you,<br>
 Gururaj Wagle<br>
