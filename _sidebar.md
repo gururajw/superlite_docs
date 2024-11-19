@@ -5,6 +5,7 @@
   - [Citing SuperLite](/citing.md)
   - [Methods](/methods.md)
   - [Papers using SuperLite](/papers.md)
+  - [Acknowledgements](/acknowledgements.md)
 - **Getting Started**
   - [Installation Instructions](/installation.md)
   - [Running SuperLite](/running.md)
